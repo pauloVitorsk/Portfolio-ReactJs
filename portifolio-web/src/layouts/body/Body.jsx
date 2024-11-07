@@ -2,7 +2,7 @@ import { faCircleNotch } from '@fortawesome/free-solid-svg-icons';
 import './Body.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect, React, useState, useRef } from 'react';
-import fotoPaulo from '../../assets/avatarPv.png';
+import fotoPaulo from '../../assets/fotoPaulo.png';
 import { IoLogoWhatsapp, IoLogoLinkedin } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 
@@ -64,7 +64,7 @@ const Body = () => {
                     <button className='botao' onClick={() => { setModalContato(!modalContato); }}>
                         Contato
                     </button>
-                    <a href="https://drive.google.com/file/d/1KuF4Gei2pbF6rYrvR-GMfl6O4AlNtQbF/view?usp=sharing" target='_blank' download={true}>
+                    <a href="https://drive.google.com/file/d/1rvsd6MnNzXkyvDDesDMiv1GcsYLTG7RM/view?usp=sharing" target='_blank' download={true}>
                         <button className='botao'>Baixar CV</button>
                     </a>
                 </div>
