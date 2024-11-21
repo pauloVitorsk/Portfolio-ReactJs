@@ -1,6 +1,6 @@
-import { faCircleNotch } from '@fortawesome/free-solid-svg-icons';
 import './Body.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Aos from "aos";
+import "aos/dist/aos.css"
 import { useEffect, React, useState, useRef } from 'react';
 import fotoPaulo from '../../assets/fotoPaulo.png';
 import { IoLogoWhatsapp, IoLogoLinkedin } from "react-icons/io";
@@ -10,6 +10,9 @@ const Body = () => {
     const [modalContato, setModalContato] = useState(false);
     const photoRef = useRef(null);
     const modalRef = useRef(null);
+    useEffect(()=>{
+        Aos.init();
+    })
 
 
     useEffect(() => {
@@ -54,7 +57,9 @@ const Body = () => {
         <div className='body-conteiner'>
             <div className="text-home">
                 <label className="text-name">Olá, eu sou Paulo!</label>
-                <h1 className="text-function">Desenvolvedor Web</h1>
+                <h1 className="text-function" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">Desenvolvedor Web</h1>
                 <p className="text-bigger">
                     Sou um desenvolvedor-web apaixonado por criar interfaces dinâmicas e responsivas usando React.js, JavaScript e CSS/Sass. Minha missão é otimizar aplicações web e solucionar problemas de forma eficiente, sempre mantendo o usuário no centro de tudo o que faço.
                     Estou sempre buscando entregar soluções de alta qualidade e estou em constante aprendizado. Tenho familiaridade com C#, .NET e SQL, e estou expandindo meus conhecimentos nessas tecnologias para colaborar de forma ainda mais eficaz com equipes de back-end.
@@ -76,6 +81,7 @@ const Body = () => {
                         src={fotoPaulo}
                         alt="Foto Paulo"
                         className="photo"
+                        data-aos="zoom-out-down"
                     />
                 </div>
             </div>
