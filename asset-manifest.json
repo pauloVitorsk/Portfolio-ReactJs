@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portifolio-web.github.io/static/css/main.7540685d.css",
+    "main.js": "/portifolio-web.github.io/static/js/main.ed929e0a.js",
+    "static/js/453.8253ed07.chunk.js": "/portifolio-web.github.io/static/js/453.8253ed07.chunk.js",
+    "static/media/fotoPaulo.png": "/portifolio-web.github.io/static/media/fotoPaulo.1732cc6095d5c05bed45.png",
+    "index.html": "/portifolio-web.github.io/index.html",
+    "main.7540685d.css.map": "/portifolio-web.github.io/static/css/main.7540685d.css.map",
+    "main.ed929e0a.js.map": "/portifolio-web.github.io/static/js/main.ed929e0a.js.map",
+    "453.8253ed07.chunk.js.map": "/portifolio-web.github.io/static/js/453.8253ed07.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7540685d.css",
+    "static/js/main.ed929e0a.js"
+  ]
+}
